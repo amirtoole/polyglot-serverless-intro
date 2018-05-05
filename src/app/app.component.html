@@ -1,0 +1,12 @@
+<div class="button-wrapper">
+    <button (click)="fetchTodo()">Fetch Todo</button>
+</div>
+
+<div>
+    <ul>
+        <li *ngFor="let todo of todos">
+            {{todo.todo}}
+        </li>
+    </ul>
+</div>
+

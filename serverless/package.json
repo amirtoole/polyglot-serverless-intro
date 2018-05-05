@@ -1,0 +1,17 @@
+{
+    "name": "serverless-intro-lambda",
+    "version": "1.0.0",
+    "description": "Serverless REST API for serverless intro",
+    "repository": "",
+    "license": "MIT",
+    "scripts": {
+        "start": "serverless offline start --port 3000 --host 0.0.0.0",
+        "deploy:lambda": "serverless deploy"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "serverless": "^1.25.0",
+        "serverless-offline": "^3.8.3"
+    }
+}
